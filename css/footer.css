@@ -75,3 +75,48 @@ footer{
     margin-top: -100px;
     margin-left: 680px;
 }
+@media screen and (max-width:767px){
+    .rosa{
+        width: 360px;
+        height: 250px;
+        height: 100px;
+        margin-left: 30px;
+        margin-top: 95x;  
+    }
+    .duda{
+        margin-left: 50px;
+        margin-top: -100px;
+        padding-left: 30px;
+        font-size: 20px;
+    }
+    .correo{
+        margin-left: 50px;
+        font-size: 20px;
+        padding-right: 50px;
+        text-align: center;
+    }
+    footer{
+        width: 99%;
+        height: 150px;
+        margin-top: -120px;
+        margin-left: 1px;
+    }
+    .contacto{
+        margin-left: -300px;
+        margin-top: -100px;
+    }
+    .tel{
+        margin-left: -300px;
+        margin-top: 10px;
+    }
+    .seguir{
+        margin-left: 250px;
+        margin-top: -120px;
+    }
+    .iconoDeFacebook{
+        margin-left: 50px;
+    }
+    .iconoDeInstagram{
+        margin-left: 100px;
+    }
+}
