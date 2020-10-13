@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.amarillo{
+  background-color: white;
+  height:auto;
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+
+}
+.msj_bienvenida{
+  border: 1px solid black;
+  width: 100%;
+  height: auto;
+}
+.Text_arriba{
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 80px 10px 80px;
+}
+.arriba{
+  padding-top: 5px;
+  font-size: 17px;
+  text-align: center;
+}
+.Text_medio{
+  font-size: 15px;
+  text-align: center;
+}
+.arriba2{
+  font-size: 18px;
+  text-align: center;
+  margin-top: 30px;
+}
+.verde{
+  width: 100%;
+  height: 225px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cajas_imagenes{
+  width: 30%;
+  height: 200px;
+  margin: auto;
+  border: 1px solid black;
+}
+.pic{
+  width: 80%;
+  height: auto;
+  padding-left: 25px;
+}
+.lab{
+  width: 80%;
+  height: auto;
+  padding-left: 25px;
+}
+.ojo{
+  width: 53%;
+  padding-left: 45px;
+  margin-top: 30px;
+}
