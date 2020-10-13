@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+  }
+  header{
+      width: 100%;
+      height: 110px;
+      background-color: #E9B4FD;
+      border: 0.2px solid black;
+  }
+  .titulo{
+      font-size: 30px;
+      font-family: 'Quattrocento Sans', sans-serif;
+      text-align: center;
+      padding-top: 15px;
+  }
+  .ContenedorP{
+      width: 150px;
+      height: 80px;
+      float: right;
+      margin-right: 50px;
+      margin-top: -20px;
+  }
+  .botonIniciar{
+      width: 100px;
+      height: 20px;
+      float: right;
+      margin-right: 30px;
+  }
+  .textoI{
+      color: black;
+      font-size: 15px;
+      font-family: 'Commissioner', sans-serif;
+      text-align: center;
+  }
+  .botonIniciar:hover{
+      -webkit-box-shadow: -1px 0px 12px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 0px 12px -1px rgba(0,0,0,0.75);
+  box-shadow: -1px 0px 12px -1px rgba(0,0,0,0.75);
+  }
+  .iconoC{
+      display: flex;
+      flex-direction: row;
+      width: 150px;
+      height: 60px;
+  }
+  .Carrito{
+      width: 15%;
+      height: 25px;
+      padding-top: 10px;
+      padding-left: 25px;
+  }
+  .num{
+      color: black;
+      font-size: 10px;
+      font-family: 'Commissioner', sans-serif;
+      padding-top: 20px;
+      padding-left: 15px;
+  }
+  .nav {
+    list-style: none;
+      width: 650px;
+      float: left;
+      margin-top: 10px;
+      margin-left: 300px;
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .bt {
+    float: left;
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    border-right: 1px solid black;
+    padding-right: 20px;
+  }
+  
+  .bt:hover {
+    color: #ffffff;
+    background-color: #B2BABB;
+  }
+  .bt {/*esto era el mas*/
+    display: flex;
+    flex-direction: column;
+  }
+  .mostrar {
+    display: block;
+  }
+  .mas:hover {
+    background-color: rgba(247, 75, 52, 1);
+  }
+  
+  form{
+      width: 150px;
+      margin-top: -35px;
+      margin-left: 20px;
+  }
+  .lupa{
+      width: 10%;
+      padding-left: 10px;
+      padding-top: 5px;
+  }
+  fieldset{
+      height: 25px;
+      background:  white;
+      border: 1px solid  #E9B4FD;
+      border: 0.5px solid black;
+      border-radius: 10px;
+  }
+  input{
+      margin: auto;
+      margin-top: 2px;
+  }
+  /************************************SECCION DEL MENU RESPONSIVE*/
+  .cajaIconosResponsive {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  #iconoMenuResponsive {
+    width: 35px;
+    margin-top: 10px;
+    float: left;
+    display: none;
+    margin-left: 10px;
+  }
+  #iconoMenuCerrar {
+    width: 25px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 10px;
+  }
+  .none {
+    display: none;
+  }
+  .cajaIconosResponsive {
+    display: none;
+  }
